@@ -1,0 +1,90 @@
+/* ====== Estilos para Telas Grandes (Desktop) ====== */
+@media (min-width: 1025px) {
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+        color: #111;
+        line-height: 1.8;
+    }
+
+    header {
+        background: linear-gradient(90deg, #004aad, #0066cc);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 80px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    }
+
+    #titulo1 {
+        font-size: 2.2rem;
+        letter-spacing: 1px;
+    }
+
+    #menu {
+        display: flex;
+        gap: 30px;
+    }
+
+    #menu a {
+        font-size: 1.6rem;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    #menu a:hover {
+        color: #ffd700;
+        transform: scale(1.15);
+    }
+
+    main {
+        padding: 50px 150px;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    #titulo2 h2 {
+        font-size: 2rem;
+        margin: 40px 0 15px 0;
+        color: #004aad;
+        border-left: 5px solid #004aad;
+        padding-left: 10px;
+    }
+
+    #texto p {
+        font-size: 1.2rem;
+        text-align: justify;
+        margin-bottom: 25px;
+    }
+
+    #img {
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    #img img {
+        max-width: 70%;
+        height: auto;
+        border-radius: 12px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        transition: transform 0.3s;
+    }
+
+    #img img:hover {
+        transform: scale(1.05);
+    }
+
+    footer {
+        background: #004aad;
+        color: white;
+        text-align: center;
+        font-size: 1rem;
+        padding: 25px;
+        margin-top: 50px;
+        box-shadow: 0 -3px 10px rgba(0,0,0,0.2);
+    }
+}
